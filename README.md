@@ -1,6 +1,7 @@
 # マイナンバーカードドライバー
 ## これなに
-WebUSBでマイナンバーカードを制御するドライバーです。
+WebUSBでマイナンバーカードを制御するドライバーです。  
+@aruneko 氏の同名リポジトリのフォークです。
 
 ## インストール方法
 ```bash
@@ -11,7 +12,7 @@ $ yarn add my_number_card_driver
 
 ## 動作環境
 - NFCカードリーダー
-    - Sony RC-S380
+    - IO-Data ICCRW2
 - WebUSB実装ブラウザー
     - Google Chrome
     - Chromium
@@ -106,7 +107,7 @@ async signWithPrivateKey(message: string, hashType: string): Promise<Uint8Array>
 ![認証シーケンス](./auth_with_my_number_card.png)
 
 ## npm package
-[my_number_card_driver](https://www.npmjs.com/package/my_number_card_driver)
+<!--[my_number_card_driver](https://www.npmjs.com/package/my_number_card_driver)-->
 
 ## ライセンス
 MIT

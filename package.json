@@ -64,10 +64,10 @@
     "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
-    "typescript": "^3.6.2"
+    "typescript": "^3.9.10"
   },
   "dependencies": {
-    "jssha": "^2.3.1",
-    "rc_s380_driver": "^1.0.4"
+    "iodicc2_driver": "file:../driver",
+    "jssha": "^2.3.1"
   }
 }

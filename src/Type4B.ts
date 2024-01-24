@@ -1,4 +1,4 @@
-import { RCS380, ReceivedPacket } from 'rc_s380_driver'
+import { RCS380, ReceivedPacket } from 'iodicc2_driver'
 import { Type4BPacket } from './Type4BPacket'
 
 export class Type4BTag {
